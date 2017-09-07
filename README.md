@@ -5,7 +5,7 @@ This guide will walk you through deploying a Go application on [Deis Workflow][]
 ## Usage
 
 ```console
-$ git clone https://github.com/deis/example-go.git
+$ git clone https://github.com/deisthree/example-go.git
 $ cd example-go
 $ deis create
 Creating Application... done, created allied-question
@@ -42,8 +42,8 @@ Release v2 on allied-question-v2-web-wudcx
 
 ## Additional Resources
 
-* [GitHub Project](https://github.com/deis/workflow)
+* [GitHub Project](https://github.com/deisthree/workflow)
 * [Documentation](https://deis.com/docs/workflow/)
 * [Blog](https://deis.com/blog/)
 
-[Deis Workflow]: https://github.com/deis/workflow#readme
+[Deis Workflow]: https://github.com/deisthree/workflow#readme
