@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/kingdonb/example-go",
-	"GoVersion": "go1.15",
+	"GoVersion": "go1.15.5",
 	"Packages": ["."],
 	"Deps": []
 }
