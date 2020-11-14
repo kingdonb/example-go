@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/teamhephy/example-go",
+	"ImportPath": "github.com/kingdonb/example-go",
 	"GoVersion": "go1.15",
 	"Packages": ["."],
 	"Deps": []
