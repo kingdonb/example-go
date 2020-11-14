@@ -1,12 +1,13 @@
 # Go Quick Start Guide
 
-This guide will walk you through deploying a Go application on [Deis Workflow][].
+This guide will walk you through deploying a Go application on [Hephy Workflow][].
 
 ## Usage
 
 ```console
-$ git clone https://github.com/deisthree/example-go.git
+$ git clone https://github.com/teamhephy/example-go.git
 $ cd example-go
+$ deis config:set BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-go#v148
 $ deis create
 Creating Application... done, created allied-question
 Git remote deis added for app allied-question
@@ -21,7 +22,7 @@ Starting build... but first, coffee!
 -----> Checking Godeps/Godeps.json file.
 -----> Installing go1.7... done
 -----> Running: go install -v -tags heroku .
-       github.com/deis/example-go
+       github.com/teamhephy/example-go
 -----> Discovering process types
        Procfile declares types -> web
 -----> Compiled slug size is 1.9M
@@ -36,14 +37,14 @@ To learn more, use 'deis help' or visit https://deis.com/
 To ssh://git@deis-builder.deis.rocks:2222/allied-question.git
  * [new branch]      master -> master
 $ curl http://allied-question.deis.rocks
-Powered by Deis
+Powered by Hephy
 Release v2 on allied-question-v2-web-wudcx
 ```
 
 ## Additional Resources
 
-* [GitHub Project](https://github.com/deisthree/workflow)
-* [Documentation](https://deis.com/docs/workflow/)
-* [Blog](https://deis.com/blog/)
+* [GitHub Project](https://github.com/teamhephy/workflow)
+* [Documentation](https://docs.teamhephy.com/)
+* [Blog](https://blog.teamhephy.info/)
 
-[Deis Workflow]: https://github.com/deisthree/workflow#readme
+[Hephy Workflow]: https://github.com/teamhephy/workflow#readme
