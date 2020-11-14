@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/deis/example-go",
-	"GoVersion": "go1.7",
+	"GoVersion": "go1.15",
 	"Packages": ["."],
 	"Deps": []
 }
